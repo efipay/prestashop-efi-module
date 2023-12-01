@@ -56,7 +56,21 @@ Ao clicar em Salvar, será possível configurar as formas de pagamento seleciona
 
     8.6.	**Validar mTLS**: Marque o campo "Validar mTLS" caso deseje utilizar a validação mTLS em seu servidor.
 
-9.	Salve suas configurações e agora sua loja virtual já está pronta para receber pagamentos pela Efí.
+9.	Configuração do Pix via Open Finance, que você poderá configurar as seguintes propriedades:
+
+    9.1.	**Nome**: Nome do titular da conta Efí. 
+
+    9.2.	**Documento**: Documento do titular da conta Efí.
+
+    9.3.	**Agência**: Agência do titular da conta Efí.
+
+    9.4.	**Conta**: N° da conta do titular.
+
+    9.5.	**Tipo de conta**: Escolha entre as opções disponíveis de acordo com sua conta.
+
+    9.6.    **Observações**: É preciso configurar o certificado no menu Pix e caso queira utilizar fornecer algum desconto nesse meio de pagamento basta que configure no menu Pix.
+  	
+11.	Salve suas configurações e agora sua loja virtual já está pronta para receber pagamentos pela Efí.
 Recomendamos que antes de disponibilizar pagamentos pela Efí, o lojista realize testes de cobrança com o sandbox(ambiente de testes) ativado para verificar se o procedimento de pagamento está acontecendo conforme esperado.
 
 
