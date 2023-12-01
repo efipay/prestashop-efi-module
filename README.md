@@ -11,7 +11,7 @@ Caso você tenha alguma dúvida ou sugestão, entre em contato conosco pelo site
 
 ### Automática
 
-1.  Faça o download da [última versão](https://github.com/efipay/prestashop-efi-module/raw/master/EfiPayPrestashop.zip) do módulo .
+1.  Faça o download da [última versão](https://github.com/efipay/prestashop-efi-module/raw/main/EfiPayPrestashop.zip) do módulo .
 2.	Acesse a administração da sua loja, em Módulos > Gerenciador de Módulos > Enviar um módulo e envie o arquivo "EfiPayPrestashop.zip" que você acabou de baixar;
 3.	Depois de enviar o módulo para sua loja, clique em "Configurar" e aguarde a finalização do processo. Automaticamente o lojista será redirecionado para a tela de configuração.
 4.	Ou então, o lojista deverá acessar a interface administrativa da loja virtual e, no menu principal, acessar a opção Módulos > Gerenciador de Módulos. Procure pelo módulo da Efí na lista que será exibida e depois clique em Configurar
