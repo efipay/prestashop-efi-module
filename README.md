@@ -1,4 +1,4 @@
-# Módulo de Integração Efí Pay para PrestaShop - Versão 1.0.0 #
+# Módulo de Integração Efí Pay para PrestaShop - Versão 1.0.1 #
 
 
 O módulo Efí Pay para PrestaShop permite receber pagamentos por meio do checkout transparente da nossa API. Compatível com a versão 8.1.x do Prestashop.
