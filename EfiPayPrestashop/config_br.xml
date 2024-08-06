@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>EfiPayPrestashop</name>
+    <displayName><![CDATA[Ef&iacute; Pay]]></displayName>
+    <version><![CDATA[1.0.3]]></version>
+    <description><![CDATA[Receba pagamentos com Boleto Banc&aacute;rio ou Cart&atilde;o de Cr&eacute;dito ou Pix]]></description>
+    <author><![CDATA[Ef&iacute; Pay]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Realmente desejar desintalar o modulo?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

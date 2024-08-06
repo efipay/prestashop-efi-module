@@ -1,0 +1,6 @@
+{
+    "require": {
+        "efipay/sdk-php-apis-efi": "^1.4",
+        "chillerlan/php-qrcode": "^2.0"
+    }
+}
