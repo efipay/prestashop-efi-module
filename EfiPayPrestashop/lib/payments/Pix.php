@@ -65,10 +65,8 @@ class Pix
             $credential = Pix::get_gn_api_credentials($gn->get_gn_api_credentials());
             $skip_mtls = Configuration::get('GERENCIANET_VALIDAR_MTLS')  == 1 ? 'false' : 'true'; // Precisa ser string
 
-            if ($skip_mtls == 'true'){
-                $hash = hash('sha256', substr(Configuration::get('GERENCIANET_CLIENT_SECRET_HOMOLOGACAO'), strlen(Configuration::get('GERENCIANET_CLIENT_SECRET_HOMOLOGACAO')) - 8) . $_SERVER['SERVER_ADDR']);
-                $url = $url . 'hash=' . $hash . '&';
-            }
+            $hash = hash('sha256', substr(Configuration::get('GERENCIANET_CLIENT_SECRET_HOMOLOGACAO'), strlen(Configuration::get('GERENCIANET_CLIENT_SECRET_HOMOLOGACAO')) - 8) . $_SERVER['SERVER_ADDR']);
+            $url = $url . 'hash=' . $hash . '&';
 
             $gnApi = $gn->update_webhook($credential, $key, $skip_mtls, $url);
 
